@@ -27,8 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![instagram](https://user-images.githubusercontent.com/76987595/160222562-10ab9e94-9901-40c9-8c6f-f8f107ee62f7.gif)
-
+![parstagram1](https://user-images.githubusercontent.com/76987595/160245155-905cc742-ea6c-46c2-92f4-5aeacf08f28b.gif)
 
 ## Notes
 

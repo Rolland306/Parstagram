@@ -10,23 +10,28 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="Login"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+        app:layout_constraintVertical_bias="0.334" />
 
     <EditText
         android:id="@+id/et_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:width="200dp"
         android:ems="10"
         android:hint="Password"
+
         android:inputType="textPassword"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_username" />
 
@@ -34,10 +39,12 @@
         android:id="@+id/et_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
         android:width="200dp"
         android:hint="Username"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,5 +58,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="306dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/officiallogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
